@@ -24,7 +24,7 @@ def generate_credentials(credentials, subject, scopes):
         updated_credentials = service_account.Credentials(
             signer,
             credentials.service_account_email,
-            TOKEN_URI,
+            token_uriI,
             scopes=scopes,
             subject=subject
         )
