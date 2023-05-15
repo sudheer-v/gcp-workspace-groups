@@ -5,9 +5,7 @@ from google.oauth2 import service_account
 import json
 
 token_uri = 'https://accounts.google.com/o/oauth2/token'
-scopes = ['https://apps-apis.google.com/a/feeds/groups/', 
-        'https://www.googleapis.com/auth/admin.directory.group', 
-        'https://www.googleapis.com/auth/admin.directory.group.readonly']
+scopes = ['https://apps-apis.google.com/a/feeds/groups/']
 workspace_admin = 'sudheerv@devopscounsel.com'
 
 def generate_credentials(credentials, subject, scopes):
